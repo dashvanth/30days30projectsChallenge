@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./00_Assets/rain.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js" defer></script>
+    <title>Weather App</title>
+</head>
+<body>
+    <!-- UI Heading  -->
+    <h2 class="heading">Weather Checker Application</h2>
+    <!-- card container  -->
+    <div class="card card-center">
+        <!-- search section  -->
+        <div class="search-bar">
+            <input type="text" spellcheck="false" placeholder="enter you city name">
+            <button><img src="./00_Assets/search.png" alt="search icon"></button>
+        </div>
+        <!-- error message section  -->
+        <div class="error-msg">
+            <p>Invalid city name &#128552;</p>
+        </div>
+        <!-- weather display section  -->
+        <div class="weather-display">
+            <img src="./00_Assets/clear.png" alt="clear weather icon" class="weather-icon">
+            <h1 class="temp-value">22° c</h1>
+            <h2 class="city">Bengaluru</h2>
+        </div>
+        <!-- weather details section  -->
+        <div class="weather-details">
+            <!-- humidity section  -->
+            <div class="humidity">
+                <img src="./00_Assets/humidity.png" alt="">
+                <div class="humidity-details">
+                    <h5 class="humidity-value">64%</h5>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <!-- wind speed section  -->
+            <div class="wind">
+                <img src="./00_Assets/wind.png" alt="">
+                <div class="wind-details">
+                    <h5 class="wind-value">18 km/h</h5>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
