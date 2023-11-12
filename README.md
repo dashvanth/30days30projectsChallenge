@@ -15,7 +15,9 @@ This is a fun and educational 30-day journey to enhance my web development skill
               3.  [Local Time Display](https://current-local-time.netlify.app/) 🎯<br>
               4.  [Number Guessing Game](https://guess-number-dashvanth.netlify.app/) 🎯<br>
 - **Day 2**: Random Password Generator - [Live Demo](https://secure-random-password-generator.netlify.app/) 🎯<br>
+- **Day 3**: Current Weather Check App - [Live Demo](https://current-weather-checker.netlify.app/) 🎯<br>
 - **Day 4**: To-Do List App - [Live Demo](https://todo-lists-app-custom.netlify.app/) 🎯<br>
+- **Day 5**: To-Do List App - [Live Demo](https://quizmastermind.netlify.app/) 🎯<br>
 
 
 ### Contact 📧
