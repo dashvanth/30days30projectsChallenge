@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(130deg,rgb(236, 126, 255),rgb(172, 214, 255));
+    padding: 5% 0 0 10%;
+    overflow: hidden;
+
+}
+.container h1{
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    gap: .5rem;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container h1 img{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.container button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background: linear-gradient(180deg, rgb(205, 0, 205), rgb(60, 27, 60));
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    border:none;
+    outline: none;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 16px;
+
+}
+.container button img{
+    width: 15px;
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    max-width: 50%;
+    height: 100%;
+    min-height: 150px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    color: #000;
+    border: none;
+    outline: none;
+    margin: 20px 0;
+}
+.delete-icon{
+    width:25px;
+    position: absolute;
+    bottom: 7%;
+    right: 2%;
+    cursor: pointer;
+}
