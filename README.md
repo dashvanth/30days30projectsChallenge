@@ -18,6 +18,7 @@ This is a fun and educational 30-day journey to enhance my web development skill
 - **Day 3**: Current Weather Check App - [Live Demo](https://current-weather-checker.netlify.app/) 🎯<br>
 - **Day 4**: To-Do List App - [Live Demo](https://todo-lists-app-custom.netlify.app/) 🎯<br>
 - **Day 5**: Quiz App - [Live Demo](https://quizmastermind.netlify.app/) 🎯<br>
+- **Day 6**: Notes App - [Live Demo](https://codecraftnotes.netlify.app/) 🎯<br>
 
 
 ### Contact 📧
