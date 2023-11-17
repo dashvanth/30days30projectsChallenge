@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: rgb(57, 71, 64);
+    position: relative;
+}
+.container{
+    width: 100%;
+    max-width:30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+    padding:1.4rem 1rem;
+    border-radius: 5px;
+    box-shadow: 1px 1px 15px rgb(101, 115, 102);
+}
+.container h2{
+    padding-bottom: 10px;;
+    border-bottom: 2px solid rgb(128, 128, 128,0.2);
+}
+.container #input{
+    width: 100%;
+    padding: .5rem .3rem;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.container button{
+    width: 100%;
+    background: rgb(52, 128, 93,0.9);
+    color: white;
+    padding: .5rem 1rem;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    margin: 0 auto ;
+}
+.container button:last-child{
+    background-color: transparent;
+    color:  rgb(52, 128, 93,0.9);
+    border: 1px solid black;
+}
+.qr-code{
+    margin: 0 auto;
+    display: none;
+    opacity: 0;
+    transition: all 2s;
+}
+
+@media only screen and (max-width:568px) {
+    .container{
+        max-width: 90%;
+    }
+}
+
+/* animation */
+.error{
+    animation: shake 0.1s linear 5;
+}
+.error::placeholder{
+    color: rgb(247, 121, 121);
+}
+@keyframes shake{
+    0%{
+      transform: rotate(0deg)  
+    }
+    25%{
+      transform: rotate(2deg)  
+        
+    }
+    50%{
+      transform: rotate(-2deg)  
+        
+    }
+    75%{
+      transform: rotate(2deg)  
+        
+    }
+    100%{
+      transform: rotate(-2deg)  
+        
+    }
+}
