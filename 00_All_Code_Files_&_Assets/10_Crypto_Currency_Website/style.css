@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: url(./Assets/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+    width: 85%;
+    height: 100vh;
+    gap: 4rem;
+}
+nav ul, nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav{
+    padding: 2rem 2rem;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+nav ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+nav .btn{
+    font-weight: 500;
+    padding: 2px 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: rgb(255, 220, 170);
+}
+.content{
+    text-align: center;
+
+}
+.content h1{
+    font-weight: 900;
+    font-size: 2.3rem;
+    color: rgb(255, 220, 170);
+    text-shadow: 3px 3px 5px rgb(29, 29, 29);
+}
+.content h4{
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    text-shadow:1px 1px 5px rgb(24, 0, 48) ;
+    margin-bottom: 10px;
+}
+.content p{
+    font-size: .8rem;
+    font-weight:500;
+    margin-bottom: 20px;
+}
+.content p span{
+    color: rgb(255, 220, 170);
+    text-shadow:1px 1px 5px rgb(20, 1, 40);
+    font-weight: 500;
+}
+
+.content .btn{
+    display: inline-block;
+    font-weight: 600;
+    background-color: rgb(255, 220, 170);
+    color: rebeccapurple;
+    padding: 5px 20px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 10px rgb(81, 60, 101);
+}
+.coin img{
+    max-width: 35px;
+    border: 2px solid rgb(194, 194, 194);
+    border-radius: 50%;
+}
+.coin-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    /* border: 2px solid lawngreen; */
+}
+.coin-list .coin{
+    border: 2px solid rgb(135, 75, 147);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .7rem;
+    padding: 5px 17px;
+    border-radius: 5px;
+}
+.coin-list .coin .coin-details{
+    color: rgb(255, 180, 76);
+}
+.coin-list .coin .coin-details p{
+    color: rgb(255, 220, 170);
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.coin-details h3{
+    color: #eaeaea;
+    font-size: 0.9rem;
+}
+
+@media only screen and (max-width:500px) {
+    nav ul{
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .btn{
+        margin: 0 auto;
+    }
+    .container{
+        gap:1rem;
+    }
+    .container{
+        padding: 0;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:400px){
+    .coin-list{
+        flex-wrap: wrap;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
