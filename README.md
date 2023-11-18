@@ -22,6 +22,7 @@ This is a fun and educational 30-day journey to enhance my web development skill
 - **Day 7**: Age Calculator - [Live Demo](https://age-sculptor-pro.netlify.app/) 🎯<br>
 - **Day 8**: Random Quote Generator - [Live Demo](https://quote-spark.netlify.app/) 🎯<br>
 - **Day 9**: QR Code Generator - [Live Demo](https://qr-craft-hub.netlify.app/) 🎯<br>
+- **Day 10**: Crypto Currencies Current Price - [Live Demo](https://crypto-wonderland.netlify.app/) 🎯<br>
 
 
 ### Contact 📧
