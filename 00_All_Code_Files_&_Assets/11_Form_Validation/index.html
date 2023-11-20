@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureForm - Validation Pro</title>
+    <link rel="shortcut icon" href="./Assets/google-forms.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <form>
+            <i class="fas fa-paper-plane"></i>
+
+            <div class="input-group">
+                <label for="full-name">Full Name</label>
+                <input type="text" placeholder="Enter your name" id="full-name" onkeyup="validateName()">
+                <span id="name-error"></span>
+            </div>
+
+            <div class="input-group">
+                <label for="phone-no">Phone No.</label>
+                <input type="tel" placeholder="123 456 7890" id="phone-no" onkeyup="validatePhone()">
+                <span id="phone-error"></span>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email Id</label>
+                <input type="email" placeholder="Enter Email" id="email" onkeyup="validateEmail()">
+                <span id="email-error"></span>
+            </div>   
+
+            <div class="input-group">
+                <label for="message">Your Message</label>
+                <textarea rows="3" placeholder="Enter your message" id="message" onkeyup="validateMessage()"></textarea>
+                <span id="message-error"></span>
+            </div>
+        
+            <div class="submit-group">
+                <button type="button" id="submit-button" onclick="return validateForm()">Submit</button>
+                <span id="submit-error"></span>
+            </div>
+        </form>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
