@@ -24,6 +24,7 @@ This is a fun and educational 30-day journey to enhance my web development skill
 - **Day 9**: QR Code Generator - [Live Demo](https://qr-craft-hub.netlify.app/) 🎯<br>
 - **Day 10**: Crypto Currencies Current Price - [Live Demo](https://crypto-wonderland.netlify.app/) 🎯<br>
 - **Day 11**: Form Validation - [Live Demo](https://secure-form-pro.netlify.app/) 🎯<br>
+- **Day 12**: Bubble Game - [Live Demo](https://pop-attack-game.netlify.app/) 🎯<br>
 
 
 ### Contact 📧
