@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Assets/bubble.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <title>PopAttack: Number Blast</title>
+</head>
+<body>
+    <div id="main">
+        <div id="panel">
+            <div id="ptop">
+                <div class="elem">
+                    <h3 >Hit</h3>
+                    <div id="hit-val" class="box">0</div>
+
+                </div>
+                <div class="elem">
+                    <h3>Timer</h3>
+                    <div id="timer" class="box">30</div>
+                </div>
+                <div class="elem">
+                    <h3>Score</h3>
+                    <div id="score-val" class="box">0</div>
+                </div>
+            </div>
+            <div id="pbottom" class="game-over-visible">
+                <div id="after-game-over">
+                    <h2 class="game-over">Game Over &#128543;</h2>
+                    <h4 class="user-score">Your score was</h4>
+                    <h4 class="highest-score">Highest score</h4>
+                    <button>Restart game</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
