@@ -25,6 +25,7 @@ This is a fun and educational 30-day journey to enhance my web development skill
 - **Day 10**: Crypto Currencies Current Price - [Live Demo](https://crypto-wonderland.netlify.app/) 🎯<br>
 - **Day 11**: Form Validation - [Live Demo](https://secure-form-pro.netlify.app/) 🎯<br>
 - **Day 12**: Bubble Game - [Live Demo](https://pop-attack-game.netlify.app/) 🎯<br>
+- **Day 13**: Calculator - [Live Demo](https://math-magic-calc.netlify.app/) 🎯<br>
 
 
 ### Contact 📧
