@@ -1,0 +1,422 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins',sans-serif;
+    }
+    /* centering elements  */
+    #wrapper, .card-container, .heading-container, .dark-mode, .search-form, .input-box, .user-details-container,.user-details, .name-join-date,#repo-container, .extra-details-container, .extra-details-container .row, .box-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #wrapper{
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+    }
+    .card-container{
+        background-color: #fff;
+        flex-direction: column;
+        padding: 10px;
+        gap: 1.2rem;
+    }
+    .heading-container{
+        width: 100%;
+        background-color: #fff;
+        justify-content: space-between;
+    }
+    .heading-container h1{
+        font-size: 1.5rem;
+    }
+    .dark-mode{
+        gap: 1rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    #dark-mode-icon{
+        cursor: pointer;
+    }
+    .dark-mode p{
+        font-size: .7rem;
+    }
+
+    /* input form */
+
+    .search-form{
+        background-color: #fff;
+        width: 100%;
+        justify-content: space-between;
+        padding: 5px;
+        border-radius: 6px;
+        box-shadow: 0px 10px 5px rgb(96, 96, 222,0.1);
+    }
+    .search-form .input-box{
+        justify-content: flex-start;
+        flex: 1;
+        gap: .7rem;
+        padding-left: 10px;
+        flex-wrap: nowrap;
+        cursor: text;
+    }
+    .search-form .input-box input{
+        width: 100%;
+        border: none;
+        outline: none;
+        font-size: 1rem;
+    }
+    .input-box input{
+        flex-basis: 1;
+    }
+    .search-form .input-box input::placeholder{
+        color: rgb(0,0,0,0.5);
+    }
+    .search-form .input-box #search-icon{
+        color: rgb(137, 156, 252);
+    }
+    .search-form button{
+        border: none;
+        outline: none;
+        background-color: rgb(137, 156, 252);
+        padding: 10px 25px;
+        border-radius: inherit;
+        color: #fff;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .user-details-container{
+        align-items: flex-start;
+        gap: 2rem;
+        padding: 20px;
+        border-radius: 7px;
+        box-shadow: 0px 0px 10px 5px rgb(96, 96, 222,0.2);
+    }
+    .user-details-container img{
+        max-width: 100px;
+        border-radius: 50%;
+        border: 1px solid rgb(0,0,0,0.3);
+    }
+    .user-details{
+        padding-top: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    #display-name{
+        font-size: 1.3rem;
+    }
+    .name-join-date{
+        gap: 2rem;
+        width: 100%;
+        justify-content: space-between;
+    }
+    #join-date{
+        color:rgb(146, 155, 186);
+    }
+    #username{
+        margin-top: -15px;
+        color: rgb(137, 156, 252);
+        font-weight: 600;
+        font-size: .9rem;
+    }
+    #bio{
+        font-size: .8rem;
+        width: 60%;
+    }
+    #repo-container{
+        width: 100%;
+        background-color: rgba(138, 138, 229, 0.1);
+        gap: 2rem;
+        justify-content: space-evenly;
+        padding: 20px 0;
+    }
+    .color-grey{
+        font-size: .8rem;
+        font-weight: 600;
+        color: rgb(94, 94, 94);
+    }
+    .color-black{
+        font-weight: 700;
+        font-size: 1.1rem;
+    }
+    .extra-details-container{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .extra-details-container .row{
+        flex-direction: column;
+        align-items: flex-start;
+        gap:.5rem;
+    }
+    .box-container{
+        justify-content: space-between;
+        gap: .7rem;
+        font-size: .7rem;
+
+    }
+    .extra-details-container a{
+        color: rgb(137, 156, 252);
+        text-decoration: none;
+    }
+
+    /* Dark mode styles */
+    body.dark-mode-active {
+        background-color: rgb(41, 38, 57);
+    }
+    body.dark-mode-active #wrapper,
+    body.dark-mode-active .dark-mode-card-container {
+        background-color: rgb(41, 38, 57);
+    }
+
+    body.dark-mode-active .heading-container,
+    body.dark-mode-active .search-form,
+    body.dark-mode-active .user-details-container {
+        background-color: rgb(41, 38, 57);
+        color: white;
+    }
+    body.dark-mode-active .user-details-container,
+    body.dark-mode-active .search-form{
+        box-shadow: 0px 0px 10px rgb(96, 96, 222,0.4);
+
+    }
+    body.dark-mode-active #search-box{
+        color: #fff;
+        background-color: transparent;
+    }
+    body.dark-mode-active .search-form .input-box input::placeholder {
+        color: white;
+    }
+
+    body.dark-mode-active .color-grey {
+        color: grey;
+    }
+
+    body.dark-mode-active .color-black {
+        color: white;
+    }
+
+
+/* Media queries for responsiveness */
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+    .card-container {
+        max-width: 100%;
+        padding: 5px;
+    }
+
+    .heading-container h1 {
+        font-size: 1.2rem;
+    }
+
+    .search-form .input-box {
+        padding-left: 5px;
+    }
+
+    .user-details {
+        padding-top: 10px;
+        width: 100%;
+    }
+
+    #bio {
+        width: 100%;
+    }
+
+    #repo-container {
+        padding: 10px 0;
+    }
+
+    .extra-details-container .row {
+        gap: 0.2rem;
+    }
+}
+
+/* Extra small screens */
+@media only screen and (max-width: 450px) {
+    .card-container {
+        max-width: 100%;
+        padding: 5px;
+    }
+
+    .heading-container h1 {
+        font-size: 1rem;
+    }
+
+    .search-form .input-box {
+        padding-left: 5px;
+    }
+
+    .user-details {
+        padding-top: 10px;
+        width: 100%;
+    }
+
+    #bio {
+        width: 100%;
+    }
+
+    #repo-container {
+        padding: 10px 0;
+    }
+
+    .extra-details-container .row {
+        gap: 0.2rem;
+    }
+}
+
+/* 400px screens */
+@media only screen and (max-width: 400px) {
+    #search-box{
+        font-size: .9rem;
+    }
+    .search-form button{
+        padding: 5px 10px;
+    }
+    .card-container {
+        max-width: 100%;
+        padding: 5px;
+    }
+
+    .heading-container h1 {
+        font-size: 0.9rem;
+    }
+
+    .search-form .input-box {
+        padding-left: 5px;
+    }
+
+    .user-details {
+        padding-top: 10px;
+        width: 100%;
+    }
+
+    #bio {
+        width: 100%;
+    }
+
+    #repo-container {
+        padding: 10px 0;
+    }
+
+    .extra-details-container .row {
+        gap: 0.2rem;
+    }
+}
+
+/* 375px screens */
+@media only screen and (max-width: 375px) {
+    #search-box{
+        font-size: .9rem;
+    }
+    .search-form button{
+        padding: 5px 10px;
+    }
+    .card-container {
+        max-width: 100%;
+        padding: 5px;
+    }
+
+    .heading-container h1 {
+        font-size: 0.8rem;
+    }
+
+    .search-form .input-box {
+        padding-left: 5px;
+    }
+
+    .user-details {
+        padding-top: 10px;
+        width: 100%;
+    }
+
+    #bio {
+        width: 100%;
+    }
+
+    #repo-container {
+        padding: 10px 0;
+    }
+
+    .extra-details-container .row {
+        gap: 0.2rem;
+    }
+}
+
+/* 350px screens */
+@media only screen and (max-width: 350px) {
+    #search-box{
+        font-size: .8rem;
+    }
+    .search-form button{
+        padding: 5px 10px;
+    }
+    .card-container {
+        max-width: 100%;
+        padding: 5px;
+    }
+    .card-container img{
+        width: 60px;
+    }
+    .heading-container h1 {
+        font-size: 0.7rem;
+    }
+
+    .search-form .input-box {
+        padding-left: 5px;
+    }
+
+    .user-details {
+        padding-top: 10px;
+        width: 100%;
+    }
+
+    #bio {
+        width: 100%;
+    }
+
+    #repo-container {
+        padding: 10px 0;
+    }
+
+    .extra-details-container .row {
+        gap: 0.2rem;
+    }
+}
+
+/* 330px screens  */
+@media only screen and (max-width: 330px) {
+    .card-container {
+        max-width: 100%;
+        padding: 5px;
+    }
+
+    .heading-container h1 {
+        font-size: 0.6rem;
+    }
+
+    .search-form .input-box {
+        padding-left: 5px;
+    }
+
+    .user-details {
+        padding-top: 10px;
+        width: 100%;
+    }
+
+    #bio {
+        width: 100%;
+    }
+
+    #repo-container {
+        padding: 10px 0;
+    }
+
+    .extra-details-container .row {
+        gap: 0.2rem;
+    }
+}
