@@ -28,7 +28,7 @@ This is a fun and educational 30-day journey to enhance my web development skill
 - **Day 13**: Calculator - [Live Demo](https://math-magic-calc.netlify.app/) 🎯<br>
 - **Day 14**: Image Search Engine - [Live Demo](https://visual-voyage-search.netlify.app/) 🎯<br>
 - **Day 15**: Github Profile Fetcher - [Live Demo](https://git-detective-pro.netlify.app/) 🎯<br>
-- **Day 15**: Github Profile Fetcher - [Live Demo]() 🎯<br>
+- **Day 15**: Github Profile Fetcher - [Live Demo](https://git-detective-pro.netlify.app/) 🎯<br>
 
 
 ### Contact 📧
